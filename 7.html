@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <title>🔄 Thu cũ đổi mới</title>       
+</head>
+<style>
+    .product-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        margin: 10px;
+        text-align: center;
+        background-color: #f9f9f9;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product-card:hover {
+        transform: scale(1.05); /* Slightly enlarges the card on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-card img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .product-card h3 {
+        font-size: 1.5em;
+        color: #333;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card .price {
+        font-size: 1.4em;
+        color: #e74c3c; /* Highlight price in red */
+        font-weight: bold;
+        animation: glow 2s infinite; /* Add glowing effect */
+    }
+
+    @keyframes glow {
+        0% {
+            text-shadow: 0 0 5px #e74c3c, 0 0 10px #e74c3c;
+        }
+        50% {
+            text-shadow: 0 0 20px #e74c3c, 0 0 30px #e74c3c;
+        }
+        100% {
+            text-shadow: 0 0 5px #e74c3c, 0 0 10px #e74c3c;
+        }
+    }
+
+    .product-card p {
+        margin: 5px 0;
+        font-size: 1em;
+        color: #666;
+    }
+</style>
+
+<body>
+    <header>
+        <h1> 🔄 Thu cũ đổi mới</h1>
+    </header>
+    
+    <section class="main-content">
+        <div class="image-container">
+            <img src="img/fhome_slider_item_desk_img8.webp" alt="Sản phẩm demo" class="styled-image">
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="product-list">
+           
+            <div class="product-card">
+                <img src="img/_new_-anh-sp-web_5b8cb6403973449d82e602be44d90c3f_large.webp" alt="Tủ lạnh Samsung">
+                <p class="price">12,490,000 đ</p>
+                <p>Tiết kiệm điện năng, thiết kế hiện đại</p>
+            </div>
+
+           
+            <div class="product-card">
+                <img src="img/_new_-anh-sp-web_dcbdfdc84b6840798c38538a6ee57264_medium.png" alt="Máy lạnh LG">
+                <h3> Inverter 1.5HP</h3>
+                <p class="price">8,990,000 đ</p>
+                <p>Khả năng làm lạnh nhanh, tiết kiệm điện</p>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="img/cpu-intel-core-i5-12400f-tray-khong-fan_8cebe5fa8d2c438fb4180821b119bbea_medium.webp" alt="Máy giặt Panasonic">
+                <p class="price">6,590,000 đ</p>
+                <p>Vận hành êm ái</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/eil-evo-spear-8gb-ddr4-3200mhz-_gsb48gb3200c16bsc_-tinhocngoisao.webp" alt="Nồi cơm điện Sharp">
+               
+                <p class="price">1,490,000 đ</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/fan-redmoon-k8-2_76c016e02f6e4cad988befa868866d71_medium.webp " alt="Máy lạnh LG">
+                <p class="price">8,990,000 đ</p>
+                <p>Khả năng làm lạnh nhanh, tiết kiệm điện</p>
+            </div>
+
+            
+            <div class="product-card">
+                <img src="img/tan-nhiet-khi-cpu-leopard-a200-plus---den-4_a301a21cf7f342309eed1de942f70b65_medium.webp" alt="Máy giặt Panasonic">
+                <p class="price">6,590,000 đ</p>
+                <p>Vận hành êm ái</p>
+            </div>
+
+            <div class="product-card">
+                <img src="img/fan-redmoon-k8-2_76c016e02f6e4cad988befa868866d71_medium.webp" alt="Nồi cơm điện Sharp">
+                <p class="price">1,490,000 đ</p>
+            </div>
+            <div class="product-card">
+                <img src="img/fan-redmoon-k8-2_76c016e02f6e4cad988befa868866d71_medium.webp" alt="Máy lạnh LG">
+                <p class="price">8,990,000 đ</p>
+                <p>Khả năng làm lạnh nhanh, tiết kiệm điện</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Cửa hàng sản phẩm điện</p>
+    </footer>
+</body>
+</html>
